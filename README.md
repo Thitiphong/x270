@@ -10,7 +10,7 @@ this guide **will not work** with other models of t470!
 
 ### what's working
 - iGPU
-- audio with appleALC
+- audio with voodooHDA
 - ethernet
 - usb 3.0
 - sd reader
