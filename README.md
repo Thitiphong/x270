@@ -72,6 +72,16 @@ now, select whatever other efi partition is in your Efi Partitions section. this
 
 open the usb efi partition in finder. copy the EFI folder, and then open your ssd's efi partition and paste it. replace anything that may need to be replaced.
 
+open clover configurator now, and open your config.plist on your ssd's efi partition. go to the SMBIOS section, and click "Generate New" here:
+
+![https://a.iliyan.me/hjppyx.png](https://a.iliyan.me/hjppyx.png)
+
+and here:
+
+![https://a.iliyan.me/dhpgil.png](https://a.iliyan.me/dhpgil.png)
+
+so that there are no conflicts between my efi and yours. 
+
 you've set up your efi partition!
 
 ### end / credits

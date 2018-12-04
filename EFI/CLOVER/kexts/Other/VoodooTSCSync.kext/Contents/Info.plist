@@ -1,79 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
+<!---Kext modified with VooDooTSCSync Cofigurator © 2017 Pietro Caruso-->
+<!---file created for generic cpu with 4 logical cores-->
+<!---Note that you should edit the IOCPUNumber value to modify the core count for VoodooTSCSync, just remember that it must be equal to the thread count of the cpu you will use - 1-->
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>17D102</string>
+	<string>11D50</string>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>en</string>
+	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>Lilu</string>
+	<string>VoodooTSCSync</string>
+	<key>CFBundleGetInfoString</key>
+	<string>© 2009 Cosmo1t</string>
 	<key>CFBundleIdentifier</key>
-	<string>as.vit9696.Lilu</string>
+	<string>org.voodoo.driver.VoodooTSCSync</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Lilu</string>
+	<string>VoodooTSCSync</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
-	<key>CFBundleShortVersionString</key>
-	<string>1.2.8</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
-	<key>CFBundleSupportedPlatforms</key>
-	<array>
-		<string>MacOSX</string>
-	</array>
 	<key>CFBundleVersion</key>
-	<string>1.2.8</string>
+	<string>1.1</string>
 	<key>DTCompiler</key>
-	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<string></string>
 	<key>DTPlatformBuild</key>
-	<string>9F2000</string>
+	<string>4E109</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>17E189</string>
+	<string>10K549</string>
 	<key>DTSDKName</key>
-	<string>macosx10.13</string>
+	<string>macosx10.6</string>
 	<key>DTXcode</key>
-	<string>0941</string>
+	<string>0430</string>
 	<key>DTXcodeBuild</key>
-	<string>9F2000</string>
+	<string>4E109</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>as.vit9696.Lilu</key>
+		<key>VoodooTSCSync</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>as.vit9696.Lilu</string>
+			<string>org.voodoo.driver.VoodooTSCSync</string>
 			<key>IOClass</key>
-			<string>Lilu</string>
+			<string>org_voodoo_driver_VoodooTSCSync</string>
 			<key>IOMatchCategory</key>
-			<string>Lilu</string>
+			<string>VoodooTSCSync</string>
+			<key>IOPropertyMatch</key>
+			<dict>
+				<key>IOCPUNumber</key>
+                               <integer>3</integer>
+			</dict>
 			<key>IOProviderClass</key>
-			<string>IOResources</string>
-			<key>IOResourceMatch</key>
-			<string>IOKit</string>
+			<string>AppleACPICPU</string>
 		</dict>
 	</dict>
-	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2016-2018 vit9696. All rights reserved.</string>
-	<key>OSBundleCompatibleVersion</key>
-	<string>1.2.0</string>
 	<key>OSBundleLibraries</key>
 	<dict>
-		<key>com.apple.kpi.bsd</key>
-		<string>12.0.0</string>
-		<key>com.apple.kpi.dsep</key>
-		<string>12.0.0</string>
 		<key>com.apple.kpi.iokit</key>
-		<string>12.0.0</string>
+		<string>7.0</string>
 		<key>com.apple.kpi.libkern</key>
-		<string>12.0.0</string>
-		<key>com.apple.kpi.mach</key>
-		<string>12.0.0</string>
+		<string>8.0d0</string>
 		<key>com.apple.kpi.unsupported</key>
-		<string>12.0.0</string>
+		<string>8.0b1</string>
 	</dict>
 	<key>OSBundleRequired</key>
 	<string>Root</string>
