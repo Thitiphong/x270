@@ -71,7 +71,7 @@
 				<key>Rec</key>
 				<integer>90</integer>
 				<key>iGain</key>
-				<integer>90</integer>
+				<integer>0</integer>
 				<key>iMix</key>
 				<integer>90</integer>
 			</dict>
