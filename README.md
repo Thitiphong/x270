@@ -94,7 +94,7 @@ shoutout to:
 - [r/hackintosh discord](https://discord.gg/u8V7N5C) for helping me out
 
 ### contact
-email: introvert@riseup.net
+email: introvert [at] riseup [dot] net
 
 or, just make a github issue and i'll respond.
 
