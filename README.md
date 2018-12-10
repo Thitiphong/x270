@@ -94,7 +94,7 @@ shoutout to:
 - [u/tatsuya_uesugi](https://www.reddit.com/user/tatsuya_uesugi) for letting me know that AppleBacklightInjector works
 
 ### contact
-email: introvert@riseup.net
+email: introvert [at] riseup [dot] net
 
 or, just make a github issue and i'll respond.
 
