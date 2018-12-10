@@ -92,6 +92,7 @@ shoutout to:
 - [tluck](https://github.com/tluck/Lenovo-T460-Clover) for the ssdt's and other patches/config
 - [maemo](https://gitlab.com/maemo8086/thinkintosh_t480/tree/master) for the theme and other misc kexts and help
 - [r/hackintosh discord](https://discord.gg/u8V7N5C) for helping me out
+- [u/tatsuya_uesugi](https://www.reddit.com/user/tatsuya_uesugi) for letting me know that AppleBacklightInjector works
 
 ### contact
 email: introvert@riseup.net
