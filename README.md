@@ -18,12 +18,11 @@ this guide **will not work** with other models of t470!
 - trackpad, trackpoint, and 3 buttons
 - battery display
 - nvme ssd
-- sleep 
+- sleep
+- brightness via applebacklightinjector (see credits)
 
 ### what's not working
-two brightness-related patches i took from [tluck's repo](https://github.com/tluck/Lenovo-T460-Clover) didn't work with my machine so the brightness can't be changed.
-
-also, the touchscreen on my model doesn't work. working on getting that to work soon.
+the touchscreen on my model doesn't work. working on getting that to work soon.
 
 ## instructions
 ### what you'll need
